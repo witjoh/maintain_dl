@@ -10,6 +10,7 @@ You must both give a configuration and distribution list file in the json format
 
 ## usage
 
+```
 usage: maintain_dl.py [-h] -c CONFIG -d DISTRIBUTION [-v]
 
     This utility maintains distributionlists using soap calls.
@@ -43,6 +44,7 @@ optional arguments:
   -d DISTRIBUTION, --distribution DISTRIBUTION
                         Distribution file in json format
   -v, --verbose         Turns verbose output on
+```
 
 ## Note
 
