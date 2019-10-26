@@ -89,6 +89,9 @@ def getDlData(name, url, token):
         data['id'] = zimbra_data['dl']['id']
         data['name'] = zimbra_data['dl']['name']
         return data
+    else:
+        print(info_response.get_fault_message())
+        sys.exit(1)
 
 def addMembers(dlId, member, url, token):
     if options.verbose:

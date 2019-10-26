@@ -43,3 +43,8 @@ optional arguments:
   -d DISTRIBUTION, --distribution DISTRIBUTION
                         Distribution file in json format
   -v, --verbose         Turns verbose output on
+
+## Note
+
+* The id field in the distribution listis not used with this version.  
+* Distribution lists are not created if non-existing, only members are maintained. 
